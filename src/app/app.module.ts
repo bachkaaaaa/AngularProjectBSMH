@@ -14,6 +14,7 @@ import { RecipesListComponent } from './components/recipes-list/recipes-list.com
 import { OneRecipeComponent } from './components/one-recipe/one-recipe.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { RecipeCardComponent } from './components/recipe-card/recipe-card.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RecipeCardComponent } from './components/recipe-card/recipe-card.compon
     RecipesListComponent,
     OneRecipeComponent,
     WelcomeComponent,
-    RecipeCardComponent
+    RecipeCardComponent,
+    FooterComponent
   ],
     imports: [
         BrowserModule,

@@ -116,5 +116,8 @@
         }
       }
     }},
-  "defaultProject": "todolsit"
+  "defaultProject": "todolsit",
+  "cli": {
+    "analytics": "9114cd27-b4a8-436f-b215-e2b194f5a332"
+  }
 }
