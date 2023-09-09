@@ -1,0 +1,38 @@
+<body>
+   <div class="login_form_container">
+    <form (ngSubmit)="login()"class="login_form">
+      <h2>Login</h2>
+      <div class="input_group">
+        <i class="fa fa-user"></i>
+        <input
+          type="text"
+          placeholder="Username"
+          class="input_text"
+          autocomplete="off"
+          id="username"
+           name="username"
+            [(ngModel)]="username" required
+        />
+      </div>
+      <div class="input_group">
+        <i class="fa fa-unlock-alt"></i>
+        <input
+          type="password"
+          placeholder="Password"
+          class="input_text"
+          autocomplete="off"
+          id="password"
+         name="password"
+          [(ngModel)]="password" required
+        />
+      </div>
+      <div class="button_group" id="login_button">
+        <a>Submit</a>
+      </div>
+      <div class="fotter">
+        <a>Forgot Password ?</a>
+        <p>Don't have an account? <a routerLink="/signup">SingUp</a></p>
+      </div>
+    </form>
+  </div>
+</body>

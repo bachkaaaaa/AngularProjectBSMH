@@ -1,0 +1,1 @@
+{"ast":null,"code":"export {};","map":{"version":3,"names":[],"sources":["C:\\Users\\msi\\geeks-login-logout\\src\\app\\login\\login.component.ts"],"sourcesContent":["import { Component, OnInit } from '@angular/core';\nimport { Router } from '@angular/router';\n\n"],"mappings":""},"metadata":{},"sourceType":"module","externalDependencies":[]}
